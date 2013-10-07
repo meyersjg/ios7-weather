@@ -10,7 +10,7 @@ body {
 .weather {
   width: 320px;
   height: 568px;
-  background: url(../img/clear-skies.jpg) 0 0 no-repeat;
+  background: url(../img/thunderstorm.jpg) 0 0 no-repeat;
   margin: 100px auto;
 }
 
@@ -31,5 +31,52 @@ body {
 }
 
 .now h2 {
-  font-size: 72px;
+  font-size: 75px;
+}
+
+/*today*/
+.group h3 {
+  float: left;
+  margin-right: 200px;
+}
+
+h4 {margin-bottom: 30px;}
+
+.hour.current.rain, .hour.cloudy, .hour {
+    float: left;
+    padding-right: 25px;
+}
+.hour.current.rain {
+  background: url(../img/icon_rain.png) 16 28 no-repeat;
+  padding-left: 17px;
+}
+
+.hour.cloudy {
+  background: url(../img/icon_cloudy.png) 0 24 no-repeat;
+}
+
+.hour.rain {
+  background: url(../img/icon_rain.png) 0 28 no-repeat;
+}
+
+.hour {
+  background: url(../img/icon_sunny.png) 0 28 no-repeat;
+}
+
+.week.group h4 {
+  float: left;
+  padding-right: 140px;
+}
+
+.day {
+  background: url(../img/icon_sunny.png) 260 10 no-repeat;
+  padding-bottom: 30px;
+}
+
+.day.rain {
+  background: url(../img/icon_rain.png) 260 0 no-repeat;
+}
+
+.day.cloudy {
+  background: url(../img/icon_cloudy.png) 260 0 no-repeat;
 }
